@@ -1,231 +1,284 @@
 // gitprofile.config.ts
+// ✅ CONFIGURACIÓN FINAL PARA ManuelDJAH
+// ✅ Repo: gitprofile
+// ✅ URL: https://ManuelDJAH.github.io/gitprofile
+// 
+// ESTE ARCHIVO ESTÁ LISTO PARA COPIAR Y PEGAR
+// Solo personaliza las secciones marcadas con 👈
 
 const CONFIG = {
+  // ========================================
+  // 🎯 CONFIGURACIÓN BÁSICA - ✅ LISTA
+  // ========================================
+  
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'ManuelDJAH', // ✅ Configurado
   },
-  /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
-   * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
-   */
+
+  // ✅ CONFIGURADO CORRECTAMENTE PARA TU REPO "gitprofile"
   base: '/gitprofile/',
+
+  // ========================================
+  // 📊 PROYECTOS DE GITHUB
+  // ========================================
+  
   projects: {
     github: {
-      display: true, // Display GitHub projects?
-      header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      display: true,
+      header: 'Mis Proyectos',
+      mode: 'automatic',
+      
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        sortBy: 'stars', // Tus repos con más estrellas primero
+        limit: 8, // Muestra 8 proyectos
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          forks: false, // Cambia a true si NO quieres mostrar repos forkeados
+          projects: [], // Repos a excluir: ['ManuelDJAH/repo-que-no-quieres-mostrar']
         },
       },
-      manual: {
-        // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
-      },
+      
+      // Si prefieres elegir manualmente qué proyectos mostrar, descomenta:
+      // manual: {
+      //   projects: [
+      //     'ManuelDJAH/proyecto-estrella-1',
+      //     'ManuelDJAH/proyecto-estrella-2',
+      //     'ManuelDJAH/proyecto-estrella-3',
+      //   ],
+      // },
     },
+    
     external: {
-      header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
+      header: 'Otros Proyectos',
       projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
+        // Si tienes proyectos fuera de GitHub, agrégalos aquí:
+        // {
+        //   title: 'Mi Proyecto Freelance',
+        //   description: 'Aplicación web desarrollada con React y Node.js. Incluye autenticación, dashboard administrativo y API REST.',
+        //   imageUrl: 'https://via.placeholder.com/500x300', // URL de screenshot
+        //   link: 'https://proyecto-demo.com',
+        // },
       ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
-  social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
-    udemy: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    discord: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: '',
-  },
-  resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
-  },
-  skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
-  ],
+
+  // ========================================
+  // 💼 EXPERIENCIA LABORAL - 👈 PERSONALIZAR
+  // ========================================
+  
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Freelance', // 👈 CAMBIAR
+      position: 'GFX / VFX', // 👈 CAMBIAR (ej: "Full Stack Developer")
+      from: '2019', // 👈 CAMBIAR (formato: "Mes Año")
+      to: 'Presente',
+      companyLink: '', // 👈 CAMBIAR o dejar vacío: ''
     },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
+    // Agrega más experiencias si las tienes:
+    // {
+    //   company: 'Empresa Anterior',
+    //   position: 'Desarrollador Junior',
+    //   from: 'Junio 2021',
+    //   to: 'Diciembre 2022',
+    //   companyLink: 'https://empresa.com',
+    // },
   ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
+
+  // ========================================
+  // 🎓 EDUCACIÓN - 👈 PERSONALIZAR
+  // ========================================
+  
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Universidad de Sonora', // 👈 CAMBIAR
+      degree: 'Ingeniería en sistemas de la informacion', // 👈 CAMBIAR
+      from: '2023', // 👈 CAMBIAR
+      to: 'Actualidad', // 👈 CAMBIAR
     },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+    // Educación adicional:
+    // {
+    //   institution: 'Bachillerato/Preparatoria',
+    //   degree: 'Bachillerato General',
+    //   from: '2015',
+    //   to: '2018',
+    // },
   ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
+
+  // ========================================
+  // 🏆 CERTIFICACIONES - 👈 AGREGAR SI TIENES
+  // ========================================
+  
+  certifications: [
+    // Si tienes certificaciones, descomenta y personaliza:
+    // {
+    //   name: 'AWS Certified Solutions Architect',
+    //   body: 'Amazon Web Services',
+    //   year: 'Marzo 2024',
+    //   link: 'https://aws.amazon.com/verification/XXXXX',
+    // },
+    // {
+    //   name: 'Professional Scrum Master I',
+    //   body: 'Scrum.org',
+    //   year: 'Enero 2024',
+    //   link: 'https://scrum.org/certificates/XXXXX',
+    // },
   ],
-  // Display articles from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+
+  // ========================================
+  // 💻 HABILIDADES - 👈 PERSONALIZAR
+  // ========================================
+  
+  skills: [
+    // 👇 Elimina las que NO uses, agrega las que SÍ domines
+    
+    // Frontend
+    'HTML',
+    'CSS',
+    
+    // Backend
+    'Python',
+    'C#',
+    
+    
+    // Bases de datos
+    'SQLServer',
+    
+    // DevOps & Tools
+    
+    // Otros
+    'Adobe Photoshop',
+    'Adobe premiere',
+    'Sony Vegas pro'
+  ],
+
+  // ========================================
+  // 🔗 REDES SOCIALES - 👈 PERSONALIZAR
+  // ========================================
+  
+  social: {
+    linkedin: '', // 👈 Solo tu username: 'manuel-djah'
+    x: '', // Twitter/X username (sin @)
+    behance: 'https://www.behance.net/zcrownx',
+    discord: '',
+    telegram: '',
+    website: '', // Tu sitio personal (URL completo)
+    phone: '6623279985', // Tu número
+    email: 'mdj2005@hotmail.com', // 👈 IMPORTANTE: Tu email profesional
   },
-  googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+
+  // ========================================
+  // 📄 CURRÍCULUM - 👈 OPCIONAL
+  // ========================================
+  
+  resume: {
+    fileUrl: '', // URL directa a tu CV en PDF
+    
+    // Para subir a Google Drive:
+    // 1. Sube tu CV.pdf a Google Drive
+    // 2. Click derecho → Compartir → "Cualquiera con el enlace puede ver"
+    // 3. Copia el enlace que se ve así:
+    //    https://drive.google.com/file/d/ABC123XYZ/view?usp=sharing
+    // 4. Transfórmalo a:
+    //    https://drive.google.com/uc?export=download&id=ABC123XYZ
+    // 5. Pega ese enlace transformado arriba
   },
-  // Track visitor interaction and behavior. https://www.hotjar.com
-  hotjar: { id: '', snippetVersion: 6 },
+
+  // ========================================
+  // 📝 BLOG - 👈 SI TIENES BLOG
+  // ========================================
+  
+  // Si escribes en Medium o Dev.to, descomenta y configura:
+  // blog: {
+  //   source: 'dev', // 'medium' o 'dev'
+  //   username: 'tu-username',
+  //   limit: 5,
+  // },
+
+  // ========================================
+  // 📚 PUBLICACIONES - 👈 SI TIENES
+  // ========================================
+  
+  // Si tienes publicaciones académicas/científicas:
+  // publications: [
+  //   {
+  //     title: 'Título de tu Paper',
+  //     conferenceName: 'Nombre de la Conferencia',
+  //     journalName: '', // O nombre del journal
+  //     authors: 'Manuel DJ, Otro Autor',
+  //     link: 'https://doi.org/xxxxx',
+  //     description: 'Breve descripción del trabajo',
+  //   },
+  // ],
+
+  // ========================================
+  // 🔍 SEO - 👈 PERSONALIZAR
+  // ========================================
+  
+  seo: {
+    title: 'Manuel', // 👈 CAMBIAR (ej: "Manuel DJ - Full Stack Developer")
+    description: 'Estudiante de Ingeniería en Sistemas con interés en el desarrollo de software y soluciones tecnológicas. Cuento con experiencia en proyectos académicos utilizando lenguajes de programación y bases de datos, además de experiencia freelance en diseño gráfico y edición de video, lo que me ha permitido desarrollar habilidades creativas, de comunicación y resolución de problemas.', // 👈 PERSONALIZAR
+    imageURL: '', // Opcional: URL de imagen para preview en redes sociales
+  },
+
+  // ========================================
+  // 🎨 TEMA
+  // ========================================
+  
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'night', // Tu tema inicial
+    
+    // Otros temas populares para probar:
+    // 'dracula' - Oscuro moderno
+    // 'synthwave' - Retro futurista  
+    // 'corporate' - Profesional
+    // 'cyberpunk' - Tech vibrante
+    // 'luxury' - Elegante
+    // 'dark' - Oscuro simple
+    // 'light' - Claro simple
 
-    // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
-    disableSwitch: false,
-
-    // Should use the prefers-color-scheme media-query,
-    // using user system preferences, instead of the hardcoded defaultTheme
+    disableSwitch: false, // true = oculta el selector de temas
     respectPrefersColorScheme: false,
-
-    // Display the ring in Profile picture
     displayAvatarRing: true,
 
-    // Available themes. To remove any theme, exclude from here.
+    // Temas disponibles en el selector:
     themes: [
       'light',
       'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
-      'corporate',
-      'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
-      'black',
-      'luxury',
-      'dracula',
-      'cmyk',
-      'autumn',
-      'business',
-      'acid',
-      'lemonade',
-      'night',
-      'coffee',
-      'winter',
-      'dim',
       'nord',
-      'sunset',
-      'caramellatte',
-      'abyss',
-      'silk',
-      'procyon',
+      'dracula',
+      'synthwave',
+      'cyberpunk',
+      'corporate',
+      'luxury',
+      'business',
+      'night',
     ],
   },
 
-  // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+  // ========================================
+  // 📊 ANALYTICS - 👈 OPCIONAL
+  // ========================================
+  
+  googleAnalytics: {
+    id: '', // Tu ID de Google Analytics (ej: 'G-ABC123XYZ')
+  },
+
+  hotjar: {
+    id: '',
+    snippetVersion: 6,
+  },
+
+  // ========================================
+  // ⚙️ CONFIGURACIÓN FINAL
+  // ========================================
+  
+  enablePWA: true,
+
+  footer: `Hecho con <a 
+      class="text-primary" 
+      href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
-
-  enablePWA: true,
+    >GitProfile</a> y ❤️`,
 };
 
 export default CONFIG;
