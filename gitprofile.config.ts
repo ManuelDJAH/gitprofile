@@ -92,7 +92,7 @@ const CONFIG = {
       institution: 'Universidad de Sonora', // 👈 CAMBIAR
       degree: 'Ingeniería en sistemas de la informacion', // 👈 CAMBIAR
       from: '2023', // 👈 CAMBIAR
-      to: 'Actualidad', // 👈 CAMBIAR
+      to: 'Presente', // 👈 CAMBIAR
     },
     // Educación adicional:
     // {
@@ -157,7 +157,7 @@ const CONFIG = {
   social: {
     linkedin: '', // 👈 Solo tu username: 'manuel-djah'
     x: '', // Twitter/X username (sin @)
-    behance: 'https://www.behance.net/zcrownx',
+    behance: '',
     discord: '',
     telegram: '',
     website: '', // Tu sitio personal (URL completo)
@@ -214,7 +214,7 @@ const CONFIG = {
   // ========================================
   
   seo: {
-    title: 'Manuel', // 👈 CAMBIAR (ej: "Manuel DJ - Full Stack Developer")
+    title: 'Portafolio Manuel', // 👈 CAMBIAR (ej: "Manuel DJ - Full Stack Developer")
     description: 'Estudiante de Ingeniería en Sistemas con interés en el desarrollo de software y soluciones tecnológicas. Cuento con experiencia en proyectos académicos utilizando lenguajes de programación y bases de datos, además de experiencia freelance en diseño gráfico y edición de video, lo que me ha permitido desarrollar habilidades creativas, de comunicación y resolución de problemas.', // 👈 PERSONALIZAR
     imageURL: '', // Opcional: URL de imagen para preview en redes sociales
   },
