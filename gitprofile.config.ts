@@ -177,16 +177,6 @@ const CONFIG = {
     // 5. Pega ese enlace transformado arriba
   },
 
-  // ========================================
-  // 📝 BLOG - 👈 SI TIENES BLOG
-  // ========================================
-  
-  // Si escribes en Medium o Dev.to, descomenta y configura:
-  // blog: {
-  //   source: 'dev', // 'medium' o 'dev'
-  //   username: 'tu-username',
-  //   limit: 5,
-  // },
 
   // ========================================
   // 📚 PUBLICACIONES - 👈 SI TIENES
