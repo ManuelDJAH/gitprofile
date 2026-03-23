@@ -165,7 +165,7 @@ const CONFIG = {
   // ========================================
   
   resume: {
-    fileUrl: '', // URL directa a tu CV en PDF
+    fileUrl: 'https://drive.google.com/file/d/1FyYUYBhOuuUskmiF4lRPqUNfC9ILzhrt/view?usp=sharing', // URL directa a tu CV en PDF
     
     // Para subir a Google Drive:
     // 1. Sube tu CV.pdf a Google Drive
