@@ -30,9 +30,9 @@ const CONFIG = {
       
       automatic: {
         sortBy: 'stars', // Tus repos con más estrellas primero
-        limit: 8, // Muestra 8 proyectos
+        limit: 6, // Muestra 8 proyectos
         exclude: {
-          forks: false, // Cambia a true si NO quieres mostrar repos forkeados
+          forks: true, // Cambia a true si NO quieres mostrar repos forkeados
           projects: [], // Repos a excluir: ['ManuelDJAH/repo-que-no-quieres-mostrar']
         },
       },
@@ -155,11 +155,6 @@ const CONFIG = {
   // ========================================
   
   social: {
-    linkedin: '', // 👈 Solo tu username: 'manuel-djah'
-    x: '', // Twitter/X username (sin @)
-    behance: '',
-    discord: '',
-    telegram: '',
     website: '', // Tu sitio personal (URL completo)
     phone: '6623279985', // Tu número
     email: 'mdj2005@hotmail.com', // 👈 IMPORTANTE: Tu email profesional
